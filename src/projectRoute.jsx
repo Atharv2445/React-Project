@@ -18,7 +18,7 @@ import App from "./App";
            <Route path="/show-user" element={<Showuser/>} />
              <Route path="/add-user" element={<Adduser/>} />
               <Route path="*" element={<PageNotFound/>}/>
-        </Route>
+      </Route>
              
     </Routes>
   </BrowserRouter>
